@@ -1,0 +1,91 @@
+.dd-control {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: lightgrey;
+	color: black;
+	padding: 8px;
+	font-size: 16px;
+	border-radius: 3px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	word-break: break-all;
+}
+
+.dd-content {
+	z-index: 1000;
+	float: left;
+	font-size: 16px;
+	color: #212529;
+	text-align: left;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 3px;
+	max-height: 280px;
+	width: 100%;
+	overflow-y: auto;
+}
+
+.dd-search {
+	display: flex;
+	border: #ddd 2px solid;
+	border-radius: 3px;
+	margin: 8px;
+}
+
+.dd-search i {
+	padding: 10px;
+}
+
+.dd-search input[type='text'] {
+	padding: 6px;
+	font-size: 17px;
+	width: 100%;
+	border: none;
+	outline: none;
+}
+
+.dd-search button {
+	float: left;
+	padding: 6px 10px;
+	margin-top: 8px;
+	margin-left: 16px;
+	background: #ddd;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown-item-text {
+	font-weight: 400;
+	color: #212529;
+	text-align: inherit;
+	overflow-wrap: break-word;
+}
+
+.dd-footer {
+	display: flex;
+	color: #6c757d;
+	justify-content: flex-end;
+}
+
+.more {
+	cursor: pointer;
+	padding: 3px;
+}
+
+.dd-control:hover {
+	background-color: gray;
+}
+
+.dropdown-item-text:hover {
+	background-color: lightgrey;
+}
+
+.btn {
+	background-color: gray;
+	color: black;
+	width: 100%;
+	border: 1px;
+}
